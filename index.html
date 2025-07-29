@@ -27,13 +27,13 @@
   <body>
     <div class="page">
       <header class="header">
-        <nav class="header__nav">
+        <nav class="nav">
           <img
             src="./images/logo_coffeeshop_dark.svg"
             alt="Logo de la cafetería"
             class="header__logo"
           />
-          <ul class="header__links">
+          <ul class="nav__links">
             <li><a href="#recipes" class="header__link">Recetas</a></li>
             <li>
               <a href="#reservation" class="header__link">Reservar una mesa</a>
@@ -42,39 +42,38 @@
           </ul>
         </nav>
 
-        <section class="intro">
-          <h1 class="header__title">
-            <span class="header__accent">Café de especialidad</span><br />
-            en Triple Peaks
-          </h1>
-          <p class="header__description">
-            ¡Te damos la bienvenida a nuestra zona de estudio! Tenemos café para
-            darte energía y un ambiente acogedor que motivará tu creatividad.
+        <h1 class="header__title">
+          <span class="header__accent">Café de especialidad</span><br />
+          en Triple Peaks
+        </h1>
+
+        <p class="header__description">
+          ¡Te damos la bienvenida a nuestra zona de estudio! Tenemos café para
+          darte energía y un ambiente acogedor que motivará tu creatividad.
+        </p>
+
+        <img
+          src="./images/inside_coffee_shop.png"
+          alt="Decoración del café"
+          class="header__image"
+        />
+
+        <div class="header__footer">
+          <p class="header__paragraph">Horario:</p>
+          <p class="header__paragraph">Lunes a Viernes (10:00h a 19:00h)</p>
+          <p class="header__paragraph">Sábados y Domingos (11:00h a 18:00h)</p>
+          <p class="header__paragraph">
+            Avenida del Éxito 200, Ciudad Triple Peaks
           </p>
-          <img
-            src="./images/inside_coffee_shop.png"
-            alt="Decoración del café"
-            class="header__image"
-          />
-          <div class="header__schedule">
-            <p class="header__text">
-              Horario:<br />
-              Lunes a Viernes (10:00h a 19:00h)<br />
-              Sábados y Domingos (11:00h a 18:00h)
-            </p>
-            <p class="header__text header__address">
-              Avenida del Éxito 200, Ciudad Triple Peaks
-            </p>
-          </div>
-        </section>
+        </div>
       </header>
 
       <main class="content">
         <section class="recipes" id="recipes">
           <h2 class="recipes__title">Recetas</h2>
           <p class="recipes__subtitle">
-            Explora algunas recetas que reunimos para que hagas tus propios
-            snacks
+            Echa un vistazo a las recetas que hemos reunido para que elabores
+            tus propios snacks.
           </p>
 
           <div class="recipes__videos">
@@ -100,7 +99,9 @@
           </div>
         </section>
 
-        <section class="reservation" id="reservation"></section>
+        <section class="reservation" id="reservation">
+          <!-- Contenido futuro para la sección de reservas -->
+        </section>
       </main>
 
       <footer class="footer" id="footer">
