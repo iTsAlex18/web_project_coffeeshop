@@ -3,16 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Bienvenido a nuestra cafetería, el lugar perfecto para disfrutar de café artesanal y buena compañía."
-    />
-    <meta name="author" content="Tu nombre" />
-    <meta
-      name="keywords"
-      content="café, cafetería, coffee shop, espresso, barista, bebidas calientes"
-    />
-    <title>Cafetería</title>
+    <title>Cafetería Triple Peaks</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,11 +12,9 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
   </head>
-
   <body>
     <div class="page">
       <header class="header">
@@ -43,42 +32,40 @@
             <li><a href="#footer" class="header__link">Contactos</a></li>
           </ul>
         </nav>
-        <h1 class="header__title">
-          <span class="header__accent">Café de especialidad</span><br />
-          en Triple Peaks
-        </h1>
 
-        <p class="header__description">
-          ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
-          para darte energía y motivar tu creatividad.
-        </p>
-      </header>
-      <footer class="footer" id="footer">
-        <div class="header__schedule">
-          <p class="header__text">
-            Horario:<br />
-            Lunes a Viernes (de 10:00h a 19:00h)<br />
-            Sábados y Domingos (de 11:00h a 18:00h)
-          </p>
-          <p class="header__text header__address">
-            Avenida del Éxito 200, Ciudad Triple Peaks
-          </p>
-        </div>
-      </footer>
-      <main class="content">
         <section class="intro">
+          <h1 class="header__title">
+            <span class="header__accent">Café de especialidad</span><br />
+            en la Biblioteca Triple Peaks
+          </h1>
+          <p class="header__description">
+            ¡Te damos la bienvenida a nuestra zona de estudio! Tenemos café para
+            darte energía y un ambiente acogedor que motivará tu creatividad.
+          </p>
           <img
             src="./images/inside_coffee_shop.png"
             alt="Decoración del café"
             class="header__image"
           />
+          <div class="header__schedule">
+            <p class="header__text">
+              Horario:<br />
+              Lunes a Viernes (10:00h a 19:00h)<br />
+              Sábados y Domingos (11:00h a 18:00h)
+            </p>
+            <p class="header__text header__address">
+              Avenida del Éxito 200, Ciudad Triple Peaks
+            </p>
+          </div>
         </section>
+      </header>
 
+      <main>
         <section class="recipes" id="recipes">
           <h2 class="recipes__title">Recetas</h2>
           <p class="recipes__subtitle">
-            Echa un vistazo a las recetas que hemos reunido para que elabores
-            tus propios snacks.
+            Explora algunas recetas que reunimos para que hagas tus propios
+            snacks
           </p>
 
           <div class="recipes__videos">
@@ -104,14 +91,14 @@
           </div>
         </section>
 
-        <section class="reservation" id="reservation">
-          <!-- Contenido para reservar mesa -->
-        </section>
-
-        <section class="gallery" id="gallery">
-          <!-- Contenido para la galería -->
-        </section>
+        <section class="reservation" id="reservation"></section>
       </main>
+
+      <footer class="footer" id="footer">
+        <p class="footer__text">
+          © Triple Peaks Café – Todos los derechos reservados
+        </p>
+      </footer>
     </div>
   </body>
 </html>
