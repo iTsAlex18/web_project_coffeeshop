@@ -31,14 +31,14 @@
           <img
             src="./images/logo_coffeeshop_dark.svg"
             alt="Logo de la cafetería"
-            class="header__logo"
+            class="nav__logo"
           />
           <ul class="nav__links">
-            <li><a href="#recipes" class="header__link">Recetas</a></li>
+            <li><a href="#recipes" class="nav__link">Recetas</a></li>
             <li>
-              <a href="#" class="header__link">Reservar una mesa</a>
+              <a href="#reservation" class="nav__link">Reservar una mesa</a>
             </li>
-            <li><a href="#footer" class="header__link">Contactos</a></li>
+            <li><a href="#contact" class="nav__link">Contactos</a></li>
           </ul>
         </nav>
 
@@ -68,7 +68,7 @@
         </div>
       </header>
 
-      <main class="content">
+      <main class="main">
         <section class="recipes" id="recipes">
           <h2 class="recipes__title">Recetas</h2>
           <p class="recipes__subtitle">
@@ -81,6 +81,7 @@
               <iframe
                 class="recipes__iframe"
                 src="https://www.youtube.com/embed/j6VlT_jUVPc"
+                title="Receta en Aeropress"
                 allowfullscreen
               ></iframe>
               <p class="recipes__video-caption">Receta en Aeropress ~5 min</p>
@@ -90,6 +91,7 @@
               <iframe
                 class="recipes__iframe"
                 src="https://www.youtube.com/embed/st571DYYTR8"
+                title="Receta en cafetera francesa"
                 allowfullscreen
               ></iframe>
               <p class="recipes__video-caption">
@@ -98,9 +100,13 @@
             </div>
           </div>
         </section>
+
+        <section class="reservation" id="reservation">
+          <!-- Sección placeholder para Reservar una mesa -->
+        </section>
       </main>
 
-      <footer class="footer" id="footer">
+      <footer class="footer" id="contact">
         <h2 class="footer__title">Contactos</h2>
         <p class="footer__text">
           © 2024 Jesús Alexis Bracamonte Díaz – Todos los derechos reservados
