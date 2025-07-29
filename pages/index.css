@@ -93,10 +93,6 @@ body {
   height: 568px;
 }
 
-.header__footer {
-  margin-top: 80px;
-}
-
 .header__schedule {
   display: flex;
   justify-content: space-between;
@@ -117,6 +113,7 @@ body {
   text-align: right;
   margin-top: auto;
 }
+
 .recipes {
   background-color: #0a2850;
   background-image: url("../images/background_recipes.svg");
